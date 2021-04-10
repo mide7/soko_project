@@ -1,0 +1,47 @@
+.SB-area {
+  background-color: rgba(128, 128, 128, 0.1);
+  max-width: 30rem;
+  position: relative;
+  display: flex;
+}
+.SB-form {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+.SB-input {
+  border: none;
+  width: 100%;
+  background-color: transparent;
+  padding: 0.5rem;
+  padding-right: 0;
+}
+.SB-input:focus {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: transparent;
+  border: transparent;
+}
+.SB-btn {
+  right: 0;
+  align-self: center;
+  border: 0;
+  background-color: transparent;
+}
+.SB-btn:focus{
+    outline: none;
+}
+.SB-icon {
+  display: flex;
+  font-size: 1.5rem;
+  color: grey;
+}
+.SB-btn:hover,
+.SB-icon:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.SB-w-100{
+    width: 100%;
+}

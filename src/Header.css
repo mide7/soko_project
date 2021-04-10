@@ -1,0 +1,7 @@
+.Header-layout{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.1);
+    /* height: 4rem; */
+}
