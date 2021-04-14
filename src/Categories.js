@@ -1,13 +1,28 @@
 import React from "react";
 import Category from "./Category";
 
-function Categories() {
+function Categories(props) {
+  let { navbar, showNav, setshowNav } = props;
   let arr = ["All", "face-masks", "fresh-food", "grocery", "home", "kids"];
   return (
     <div>
-      {arr.map((i) => {
-        return <Category key={i}>{i}</Category>;
-      })}
+      {navbar ? (
+        <>
+          {arr.map((i) => {
+            return (
+              <Category key={i} showNav={showNav} setshowNav={setshowNav}>
+                {i}
+              </Category>
+            );
+          })}
+        </>
+      ) : (
+        <>
+          {arr.map((i) => {
+            return <Category key={i}>{i}</Category>;
+          })}
+        </>
+      )}
     </div>
   );
 }

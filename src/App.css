@@ -21,13 +21,21 @@
   grid-column: 3/13;
   border-left: 1px solid rgba(128, 128, 128, 0.1);
 }
-
+.App-toggle-display2{
+  display: none;
+}
 @media screen and (max-width: 620px) {
   .App-main {
     grid-column: 1/13;
   }
   .App-header {
     display: none;
+  }
+  .App-toggle-display{
+    display: none;
+  }
+  .App-toggle-display2{
+    display: flex;
   }
 }
 /* .App {

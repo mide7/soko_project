@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Categories from "./Categories";
 import Header from "./Header";
+import MainHeader from "./MainHeader";
 import ShoppingArea from "./ShoppingArea";
 import "./App.css";
 
@@ -19,7 +20,12 @@ function App(props) {
         </div>
       </div>
       <div className="App-main">
-        <Header />
+        <div className="App-toggle-display">
+          <Header />
+        </div>
+        <div className="App-toggle-display2">
+          <MainHeader />
+        </div>
 
         <ShoppingArea>{props.children}</ShoppingArea>
       </div>

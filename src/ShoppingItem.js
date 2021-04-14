@@ -15,7 +15,7 @@ function ShoppingItem() {
   let ID = Number(location.pathname.slice(9));
   let item = products.find((x) => x.id === ID);
   return (
-    <div className="SI-layout mx-2">
+    <div className="SI-layout">
       <MainHeader />
       <div className="mt-2">
         <button className="btn d-flex align-items-center" onClick={goBack}>
@@ -42,11 +42,11 @@ function ShoppingItem() {
               sunt in culpa qui officia deserunt mollit anim id est laborum."
             </p>
             <div className="fs-4 fw-bold">Price: ${item.price}</div>
-            <div className="row mt-4">
-              <button className="btn btn-outline-secondary btn-lg me-4 col">
+            <div className="mt-4 me-1">
+              <button className="btn btn-outline-secondary btn-lg me-4 ">
                 Add to Bag
               </button>
-              <button className="btn btn-outline-dark btn-lg col">Buy Now</button>
+              <button className="btn btn-outline-dark btn-lg ">Buy Now</button>
             </div>
           </div>
         </div>
