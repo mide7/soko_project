@@ -7,7 +7,7 @@ import './MainHeader.css'
 function MainHeader() {
   return (
     <div className="d-flex justify-content-between align-items-center MH-layout">
-      <div className="text-secondary">
+      <div className="text-secondary mx-2">
         <Link to="/">
           <h1 className="text-secondary">LOGO</h1>
         </Link>
