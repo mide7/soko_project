@@ -1,0 +1,10 @@
+.SI-layout {
+  margin: 0 auto;
+  max-width: 1250px;
+}
+.SI-img-container {
+  max-width: 40%;
+}
+.SI-img {
+  border-radius: 5%;
+}

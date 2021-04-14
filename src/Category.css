@@ -1,0 +1,15 @@
+.Cat-layout:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 255, 255),
+    rgba(128, 128, 128, 0.1)
+  );
+}
+.Cat-active {
+  border-right: 2px solid indigo;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 255, 255),
+    rgba(128, 128, 128, 0.1)
+  );
+}

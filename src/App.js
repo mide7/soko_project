@@ -1,25 +1,27 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
-import "./App.css";
 import Categories from "./Categories";
 import Header from "./Header";
 import ShoppingArea from "./ShoppingArea";
+import "./App.css";
 
-function App() {
+function App(props) {
   return (
     <div className="App">
-      <div className="App-header">
-        <div className="mb-3 text-grey">
-          <Link to="/">
-            <h1 className="text-grey">LOGO</h1>
-          </Link>
+      <div className="App-header pl-2">
+        <div className="w-100">
+          <div className="mb-3 text-grey">
+            <Link to="/">
+              <h1 className="text-grey">LOGO</h1>
+            </Link>
+          </div>
+          <Categories />
         </div>
-        <Categories />
       </div>
       <div className="App-main">
         <Header />
-        <ShoppingArea/>
+
+        <ShoppingArea>{props.children}</ShoppingArea>
       </div>
     </div>
   );

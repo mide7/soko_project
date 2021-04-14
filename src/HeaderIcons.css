@@ -1,6 +1,13 @@
-.HI-layout {
- 
+.HI-icon {
+  font-size: 1.3rem;
+  padding: 0rem 0.75rem;
+  border-radius: 10rem;
 }
-.HI-icon{
-    font-size: 1.5rem;
+.HI-icon:hover {
+  background-color: rgba(128, 128, 128, 0.1);
+}
+.HI-active {
+  display: inline-block;
+  color: #fff;
+  background-color: rgba(128, 128, 128, 0.1);
 }

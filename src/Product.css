@@ -1,0 +1,29 @@
+.Product-layout{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid  grey; */
+    border-radius: 5%  5% 0% 0%;
+    width: 15rem;
+    height: 15rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    overflow: hidden;
+}
+.Product-layout:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.Product-img-container{
+    overflow: hidden;
+    justify-self: center;
+    align-self: center;
+    height: 10rem;
+}
+.Product-img{
+    height: 100%;
+    width: 100%;
+    /* object-fit: scale-down; */
+    overflow: hidden;
+}
+.Product-price,.Product-name{
+    height: 2rem;
+    overflow: hidden;
+}

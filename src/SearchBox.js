@@ -8,7 +8,7 @@ function SearchBox() {
     <div className="SB-area w-100">
       <form action="" className="SB-form">
         <div className='SB-w-100'>
-          <input type="text" className="SB-input" />
+          <input type="text" className="SB-input" placeholder='Search for products'/>
         </div>
         <button className="SB-btn">
           <FontAwesomeIcon icon={faSearch} className="SB-icon" />
