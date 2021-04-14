@@ -11,7 +11,15 @@ function FaceMasks() {
       <div className="d-flex flex-row flex-wrap justify-content-around">
         {products.map((x) => {
           if (x.category === "facemask") {
-            return <Product id={x.id} url={x.url} name={x.name} price={x.price} key={x.name}/>;
+            return (
+              <Product
+                id={x.id}
+                url={x.url}
+                name={x.name}
+                price={x.price}
+                key={x.name}
+              />
+            );
           }
         })}
       </div>

@@ -10,7 +10,7 @@ function Categories(props) {
         <>
           {arr.map((i) => {
             return (
-              <Category key={i} showNav={showNav} setshowNav={setshowNav}>
+              <Category key={i} showNav={showNav} setshowNav={setshowNav} navbar={navbar}>
                 {i}
               </Category>
             );
