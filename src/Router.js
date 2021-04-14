@@ -8,7 +8,6 @@ import Grocery from "./Grocery";
 import Kids from "./Kids";
 import Home from "./Home";
 import ShoppingBag from "./ShoppingBag";
-import Account from "./Account";
 import ShoppingItem from "./ShoppingItem";
 
 function Router() {

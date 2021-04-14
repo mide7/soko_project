@@ -1,6 +1,5 @@
 import React from "react";
 import Product from "./Product";
-import ShoppingArea from "./ShoppingArea";
 import products from "./products";
 
 function FaceMasks() {
