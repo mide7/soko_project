@@ -9,7 +9,7 @@ function App(props) {
   return (
     <div className="App">
       <div className="App-header pl-2">
-        <div className="w-100">
+        <div className="w-100 ps-1">
           <div className="mb-3 text-grey">
             <Link to="/">
               <h1 className="text-grey">LOGO</h1>

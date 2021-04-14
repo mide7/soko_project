@@ -6,7 +6,7 @@
   );
 }
 .Cat-active {
-  border-right: 2px solid indigo;
+  border-right: 2px solid grey;
   background-image: linear-gradient(
     to right,
     rgb(255, 255, 255),
